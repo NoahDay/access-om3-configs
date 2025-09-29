@@ -11,7 +11,7 @@
 queue: normal
 ncpus: 288
 jobfs: 10GB
-mem: 192GB
+mem: 384GB
 
 walltime: 48:00:00
 
