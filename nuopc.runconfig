@@ -343,12 +343,12 @@ MED_modelio::
      diro = ./log
      logfile = med.log
      pio_async_interface = .false.
-     pio_netcdf_format = 64bit_offset
-     pio_numiotasks = -99
+     pio_netcdf_format = nothing
+     pio_numiotasks = 4
      pio_rearranger = 2
      pio_root = 1
-     pio_stride = 48
-     pio_typename = netcdf
+     pio_stride = 1
+     pio_typename = netcdf4p
 ::
 
 ATM_modelio::
@@ -356,22 +356,22 @@ ATM_modelio::
      logfile = atm.log
      pio_async_interface = .false.
      pio_netcdf_format = 64bit_offset
-     pio_numiotasks = -99
+     pio_numiotasks = 1
      pio_rearranger = 1
      pio_root = 1
-     pio_stride = 48
-     pio_typename = netcdf
+     pio_stride = 1
+     pio_typename = netcdf4p
 ::
 
 ICE_modelio::
      diro = ./log
      logfile = ice.log
      pio_async_interface = .false.
-     pio_netcdf_format = 64bit_offset
+     pio_netcdf_format = nothing
      pio_numiotasks = 1
      pio_rearranger = 1
      pio_root = 1
-     pio_stride = 48
+     pio_stride = 1
      pio_typename = netcdf4p
 ::
 
@@ -391,24 +391,24 @@ ROF_modelio::
      diro = ./log
      logfile = rof.log
      pio_async_interface = .false. #not used
-     pio_netcdf_format = 64bit_offset #not used
-     pio_numiotasks = -99 #not used
+     pio_netcdf_format = nothing #not used
+     pio_numiotasks = 1 #not used
      pio_rearranger = 2 #not used
      pio_root = 1 #not used
-     pio_stride = 48 #not used
-     pio_typename = netcdf #not used
+     pio_stride = 1 #not used
+     pio_typename = netcdf4p #not used
 ::
 
 WAV_modelio::
      diro = ./log
      logfile = wav.log
      pio_async_interface = .false.
-     pio_netcdf_format = 64bit_offset
-     pio_numiotasks = -99
+     pio_netcdf_format = nothing
+     pio_numiotasks = 1
      pio_rearranger = 2
      pio_root = 1
-     pio_stride = 48
-     pio_typename = netcdf
+     pio_stride = 1
+     pio_typename = netcdf4p
      history_n = 1
      history_option = ndays
 ::
