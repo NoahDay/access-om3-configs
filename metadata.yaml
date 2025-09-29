@@ -1,1 +1,7 @@
-experiment_uuid: 102bd085-5e0a-4029-b0d7-ad2ee2327a9f
+experiment_uuid: 0c30bf33-3965-4708-9dfd-8d5608295233
+created: '2025-09-29'
+name: IC4-IC4M2-MCW_100km_jra_iaf-noah-IC4-IC4M2-MCW_100km_jra_iaf-0c30bf33
+model: ACCESS-OM3
+url: git@github.com:NoahDay/access-om3-configs.git
+contact: Noah
+email: noah.day@adelaide.edu.au
