@@ -27,11 +27,11 @@ DRIVER_attributes::
 ::
 
 PELAYOUT_attributes::
-     atm_ntasks = 72
+     atm_ntasks = 104
      atm_nthreads = 1
      atm_pestride = 1
      atm_rootpe = 0
-     cpl_ntasks = 72
+     cpl_ntasks = 104
      cpl_nthreads = 1
      cpl_pestride = 1
      cpl_rootpe = 0
@@ -40,31 +40,31 @@ PELAYOUT_attributes::
      esp_nthreads = 1
      esp_pestride = 1
      esp_rootpe = 0
-     glc_ntasks = 72
+     glc_ntasks = 104
      glc_nthreads = 1
      glc_pestride = 1
      glc_rootpe = 0
-     ice_ntasks = 72
+     ice_ntasks = 104
      ice_nthreads = 1
      ice_pestride = 1
      ice_rootpe = 0
-     lnd_ntasks = 72
+     lnd_ntasks = 104
      lnd_nthreads = 1
      lnd_pestride = 1
      lnd_rootpe = 0
      ninst = 1
-     ocn_ntasks = 320
+     ocn_ntasks = 416
      ocn_nthreads = 1
      ocn_pestride = 1
      ocn_rootpe = 0
      pio_asyncio_ntasks = 0
      pio_asyncio_rootpe = 1
      pio_asyncio_stride = 0
-     rof_ntasks = 72
+     rof_ntasks = 104
      rof_nthreads = 1
      rof_pestride = 1
      rof_rootpe = 0
-     wav_ntasks = 408
+     wav_ntasks = 416
      wav_nthreads = 1
      wav_pestride = 1
      wav_rootpe = 0
