@@ -39,7 +39,7 @@ input:
 
 runlog: true
 metadata:
-    enable: true
+    enable: false
 manifest:
   reproduce:
     exe: false
