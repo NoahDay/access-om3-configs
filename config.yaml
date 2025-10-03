@@ -11,7 +11,7 @@
 queue: normalsr
 ncpus: 416 
 jobfs: 10GB
-mem: 8000GB
+mem: 400GB
 
 walltime: 24:00:00
 
