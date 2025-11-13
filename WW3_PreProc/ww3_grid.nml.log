@@ -1,0 +1,149 @@
+
+SPECTRUM %  XFR        =     1.10
+SPECTRUM %  FREQ1      =     0.04
+SPECTRUM %  NK         =       25
+SPECTRUM %  NTH        =       24
+SPECTRUM %  THOFF      =     0.00
+
+RUN %  FLDRY      = F
+RUN %  FLCX       = T
+RUN %  FLCY       = T
+RUN %  FLCTH      = T
+RUN %  FLCK       = F
+RUN %  FLSOU      = T
+
+TIMESTEPS %  DTMAX      =   900.00
+TIMESTEPS %  DTXY       =   300.00
+TIMESTEPS %  DTKTH      =   600.00
+TIMESTEPS %  DTMIN      =    10.00
+
+GRID %  NAME       = Global Tripolar Grid
+GRID %  NML        = ../WW3_PreProc/namelists_Global.nml
+GRID %  TYPE       = CURV
+GRID %  COORD      = SPHE
+GRID %  CLOS       = TRPL
+GRID %  ZLIM       =    -0.10
+GRID %  DMIN       =     2.50
+
+RECT %  NX         =        0
+RECT %  NY         =        0
+RECT %  SX         =         0.00
+RECT %  SY         =         0.00
+RECT %  SF         =         1.00
+RECT %  X0         =         0.00
+RECT %  Y0         =         0.00
+RECT %  SF0        =         1.00
+
+CURV %  NX                 =      360
+CURV %  NY                 =      300
+CURV %  XCOORD % SF        =     1.00
+CURV %  XCOORD % OFF       =     0.00
+CURV %  XCOORD % FILENAME  = OM2_1.Lon
+CURV %  XCOORD % IDF       =       21
+CURV %  XCOORD % IDLA      =        1
+CURV %  XCOORD % IDFM      =        1
+CURV %  XCOORD % FORMAT    = (....)
+CURV %  XCOORD % FROM      = NAME
+CURV %  YCOORD % SF        =     1.00
+CURV %  YCOORD % OFF       =     0.00
+CURV %  YCOORD % FILENAME  = OM2_1.Lat
+CURV %  YCOORD % IDF       =       22
+CURV %  YCOORD % IDLA      =        1
+CURV %  YCOORD % IDFM      =        1
+CURV %  YCOORD % FORMAT    = (....)
+CURV %  YCOORD % FROM      = NAME
+
+UNST %  SF        =     0.00
+UNST %  FILENAME  = unset
+UNST %  IDF       =       20
+UNST %  IDLA      =        1
+UNST %  IDFM      =        1
+UNST %  FORMAT    = (....)
+UNST %  UGOBCFILE = unset
+
+SMC %  MCELS % FILENAME  = unset
+SMC %  MCELS % IDF       =       31
+SMC %  MCELS % IDLA      =        1
+SMC %  MCELS % IDFM      =        1
+SMC %  MCELS % FORMAT    = (....)
+SMC %  ISIDE % FILENAME  = unset
+SMC %  ISIDE % IDF       =       32
+SMC %  ISIDE % IDLA      =        1
+SMC %  ISIDE % IDFM      =        1
+SMC %  ISIDE % FORMAT    = (....)
+SMC %  JSIDE % FILENAME  = unset
+SMC %  JSIDE % IDF       =       33
+SMC %  JSIDE % IDLA      =        1
+SMC %  JSIDE % IDFM      =        1
+SMC %  JSIDE % FORMAT    = (....)
+SMC %  SUBTR % FILENAME  = unset
+SMC %  SUBTR % IDF       =       34
+SMC %  SUBTR % IDLA      =        1
+SMC %  SUBTR % IDFM      =        1
+SMC %  SUBTR % FORMAT    = (....)
+SMC %  BUNDY % FILENAME  = unset
+SMC %  BUNDY % IDF       =       35
+SMC %  BUNDY % IDLA      =        1
+SMC %  BUNDY % IDFM      =        1
+SMC %  BUNDY % FORMAT    = (....)
+SMC %  MBARC % FILENAME  = unset
+SMC %  MBARC % IDF       =       36
+SMC %  MBARC % IDLA      =        1
+SMC %  MBARC % IDFM      =        1
+SMC %  MBARC % FORMAT    = (....)
+SMC %  AISID % FILENAME  = unset
+SMC %  AISID % IDF       =       37
+SMC %  AISID % IDLA      =        1
+SMC %  AISID % IDFM      =        1
+SMC %  AISID % FORMAT    = (....)
+SMC %  AJSID % FILENAME  = unset
+SMC %  AJSID % IDF       =       38
+SMC %  AJSID % IDLA      =        1
+SMC %  AJSID % IDFM      =        1
+SMC %  AJSID % FORMAT    = (....)
+
+DEPTH %  SF        =     1.00
+DEPTH %  FILENAME  = OM2_1.Dpt
+DEPTH %  IDF       =       50
+DEPTH %  IDLA      =        1
+DEPTH %  IDFM      =        1
+DEPTH %  FORMAT    = (....)
+DEPTH %  FROM      = NAME
+
+MASK %  FILENAME  = OM2_1.Mask
+MASK %  IDF       =       60
+MASK %  IDLA      =        1
+MASK %  IDFM      =        1
+MASK %  FORMAT    = (....)
+MASK %  FROM      = NAME
+
+OBST %  SF        =     0.01
+OBST %  FILENAME  = OM2_1.Obstr
+OBST %  IDF       =       70
+OBST %  IDLA      =        1
+OBST %  IDFM      =        1
+OBST %  FORMAT    = (....)
+OBST %  FROM      = NAME
+
+SLOPE %  SF        =     1.00
+SLOPE %  FILENAME  = unset
+SLOPE %  IDF       =       80
+SLOPE %  IDLA      =        1
+SLOPE %  IDFM      =        1
+SLOPE %  FORMAT    = (....)
+SLOPE %  FROM      = NAME
+
+SED %  SF        =     1.00
+SED %  FILENAME  = unset
+SED %  IDF       =       90
+SED %  IDLA      =        1
+SED %  IDFM      =        1
+SED %  FORMAT    = (....)
+SED %  FROM      = NAME
+
+INBND_COUNT %  N_POINT       =        0
+
+EXCL_COUNT %  N_POINT       =        0
+EXCL_COUNT %  N_BODY        =        0
+
+OUTBND_COUNT %  N_LINE        =        0

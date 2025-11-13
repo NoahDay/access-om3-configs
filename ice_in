@@ -144,7 +144,7 @@
   f_sifb = "md"
   f_snoice = "md"
   f_uvel = "md" , f_vvel = "md"
-  f_vicen = "m"
+  f_vicen = "md"
   !-----------------------------------
   ! These fields are on by default (in ice_history_shared.F90) but lets turn them off
   !-----------------------------------

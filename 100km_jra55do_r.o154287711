@@ -1,0 +1,26 @@
+laboratory path:  /scratch/ps29/nd0349/access-om3
+binary path:  /scratch/ps29/nd0349/access-om3/bin
+input path:  /scratch/ps29/nd0349/access-om3/input
+work path:  /scratch/ps29/nd0349/access-om3/work
+archive path:  /scratch/ps29/nd0349/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: IC3-MCW-100km_jra_ryf
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+
+======================================================================================
+                  Resource Usage on 2025-11-11 15:29:49:
+   Job Id:             154287711.gadi-pbs
+   Project:            ps29
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      6.08
+   NCPUs Requested:    288                    NCPUs Used: 288             
+                                           CPU Time Used: 00:13:29        
+   Memory Requested:   1.12TB                Memory Used: 26.41GB         
+   Walltime requested: 48:00:00            Walltime Used: 00:00:38        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================

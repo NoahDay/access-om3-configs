@@ -1,0 +1,86 @@
+Loading conda/analysis3-25.05
+  Loading requirement: singularity
+concat_ice_daily: joining daily ice files in archive/output001
+/g/data/vk83/apps/om3-scripts/scripts_common.py:127: UserWarning: /g/data/vk83/apps/om3-scripts/payu_config/postscript/concat_ice_daily.py not under git version control! Add your file to a repository before generating any production output.
+  warn(
+2025-11-13 11:56:43,475 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/comm/tcp.py", line 226, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/worker.py", line 1267, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/utils_comm.py", line 416, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/utils_comm.py", line 395, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/core.py", line 1259, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:42518 remote=tcp://127.0.0.1:38363>: Stream is closed
+cice concat finished
+concat_ice_daily: finished processing archive/output001
+/g/data/vk83/apps/om3-scripts/payu_config/postscript/build_intake_ds.py:39: UserWarning: metadata.yaml not found in config folder
+  warn(f"{METADATA_FILENAME} not found in config folder")
+/g/data/vk83/apps/om3-scripts/scripts_common.py:127: UserWarning: /g/data/vk83/apps/om3-scripts/payu_config/postscript/build_intake_ds.py not under git version control! Add your file to a repository before generating any production output.
+  warn(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/access_nri_intake/experiment/main.py:100: DataStoreWarning: [33m[22mExperiment directory and datastore do not match (missing files from datastore). Datastore regeneration required...[0m
+  ds_info.valid = verify_ds_current(ds_info, found_experiment_files)
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/argopy/__init__.py:32: DeprecationWarning: The 'argopy.utilities' has moved to 'argopy.utils'. After 0.1.15, importing 'utilities' will raise an error. Please update your script.
+  from . import utilities  # noqa: E402  # being deprecated until 0.1.15, then remove
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/wavespectra/core/npstats.py:238: DeprecationWarning: invalid escape sequence '\s'
+  """Gaussian frequency spectrum (Bunney et al., 2014).
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/wavespectra/output/ww3.py:25: ResourceWarning: unclosed file <_io.TextIOWrapper name='/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/wavespectra/output/ww3.yml' mode='r' encoding='utf-8'>
+  VAR_ATTRIBUTES = yaml.load(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/wavespectra/construct/frequency.py:139: DeprecationWarning: invalid escape sequence '\s'
+  """Gaussian frequency spectrum (Bunney et al., 2014).
+<frozen importlib._bootstrap>:241: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 16 from C header, got 96 from PyObject
+LOG: Building intake-esm datastore
+[34m[22mDatastore found in [36m[1marchive[34m[22m, verifying datastore integrity...[0m
+[34m[22mParsing experiment dir...[0m
+[34m[22mBuilding esm-datastore...[0m
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/access_nri_intake/source/utils.py:142: UserWarning: Time coordinate does not include bounds information. Guessing start and end times.
+  warnings.warn(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/access_nri_intake/source/utils.py:142: UserWarning: Time coordinate does not include bounds information. Guessing start and end times.
+  warnings.warn(
+/g/data/xp65/public/apps/med_conda/envs/analysis3-25.05/lib/python3.11/site-packages/intake_esm/cat.py:187: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  data = self.dict().copy()
+[32m[22mSucessfully built esm-datastore![0m
+[34m[22mSaving esm-datastore to [36m[1m/g/data/ps29/nd0349/access-om3/configurations/mcw/IC3-MCW-100km_jra_ryf/archive[0m
+Successfully wrote ESM catalog json file to: file:///g/data/ps29/nd0349/access-om3/configurations/mcw/IC3-MCW-100km_jra_ryf/archive/experiment_datastore.json
+[34m[22mHashing catalog to prevent unnecessary rebuilds.
+This may take some time...[0m
+[32m[22mCatalog sucessfully hashed![0m
+[32m[22mDatastore sucessfully written to [36m[1m/g/data/ps29/nd0349/access-om3/configurations/mcw/IC3-MCW-100km_jra_ryf/archive/experiment_datastore.json[32m[22m!
+[34m[22mPlease note that this has not added the datastore to the access-nri-intake catalog.
+To add to catalog, please run '[37m[1mscaffold_catalog_entry[34m[22m' for help on how to do so.
+sys:1: DeprecationWarning: Call to deprecated function (or staticmethod) _destroy.
+
+======================================================================================
+                  Resource Usage on 2025-11-13 11:58:08:
+   Job Id:             154362678.gadi-pbs
+   Project:            ps29
+   Exit Status:        0
+   Service Units:      11.15
+   NCPUs Requested:    104                    NCPUs Used: 104             
+                                           CPU Time Used: 00:42:35        
+   Memory Requested:   500.0GB               Memory Used: 47.41GB         
+   Walltime requested: 00:30:00            Walltime Used: 00:03:13        
+   JobFS requested:    100.0GB                JobFS used: 0B              
+======================================================================================
