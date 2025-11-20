@@ -6,12 +6,15 @@
   initfile = "./INPUT/restart.ww3"
 /
 &input_nml
-  input%forcing%water_levels = 'T'
+  input%forcing%water_levels = 'C'
   input%forcing%currents     = 'C'
   input%forcing%winds        = 'C'
   input%forcing%ice_conc     = 'C'
-  input%forcing%ice_param1   = 'C'
-  input%forcing%ice_param5   = 'C'
+  input%forcing%ice_param1   = 'H'
+  input%forcing%ice_param2   = 'H'
+  input%forcing%ice_param3   = 'H'
+  input%forcing%ice_param4   = 'H'
+  input%forcing%ice_param5   = 'H'
 /
 &output_type_nml
   type%field%list = 'WND ICE HS T02 T0M1 T01 FP DIR EF USS TOC IC1 IC5'
@@ -33,4 +36,27 @@
   date%restart2%stride = '0'
   date%restart2%stop   = '99990101 0'
 /
+&homog_count_nml
+  homog_count%n_ic1                =  1
+  homog_count%n_ic2                =  1
+  homog_count%n_ic3                =  1
+  homog_count%n_ic4                =  1
+  homog_count%n_ic5                =  1
+/
+&homog_input_nml
+  homog_input(1)%name        = 'IC1'
+  homog_input(1)%value1      = 0.0
 
+  homog_input(2)%name        = 'IC2'
+  homog_input(2)%value1      = 0.0
+
+  homog_input(3)%name        = 'IC3'
+  homog_input(3)%value1      = 0.0
+
+  homog_input(4)%name        = 'IC4'
+  homog_input(4)%value1      = 0.0
+
+  homog_input(5)%name        = 'IC5'
+  homog_input(5)%value1      = 0.0
+/
+~
