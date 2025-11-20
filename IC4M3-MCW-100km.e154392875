@@ -1,0 +1,19 @@
+Loading access-om3/pr152-5
+  Loading requirement:
+    access-om3/dependencies/pr152-5/access3-share/2025.08.000-mrri5x5
+    access-om3/dependencies/pr152-5/access-cice/CICE6.6.1-0-p3ersa4
+    access-om3/dependencies/pr152-5/access-mocsy/2025.07.002-ah2465g
+    access-om3/dependencies/pr152-5/access-generic-tracers/2025.08.000-zuwx7mf
+    access-om3/dependencies/pr152-5/access-mom6/2025.07.000-tp65nex
+    access-om3/dependencies/pr152-5/access-ww3/b6bd6fb82fd71c39d60c8188cc2d0c9763ad0ee9-al7jwos access-om3/dependencies/pr152-5/access3/2025.08.000-r3flpv4
+Currently Loaded Modulefiles:
+ 1) access-om3/dependencies/pr152-5/access3-share/2025.08.000-mrri5x5                            
+ 2) access-om3/dependencies/pr152-5/access-cice/CICE6.6.1-0-p3ersa4                              
+ 3) access-om3/dependencies/pr152-5/access-mocsy/2025.07.002-ah2465g                             
+ 4) access-om3/dependencies/pr152-5/access-generic-tracers/2025.08.000-zuwx7mf                   
+ 5) access-om3/dependencies/pr152-5/access-mom6/2025.07.000-tp65nex                              
+ 6) access-om3/dependencies/pr152-5/access-ww3/b6bd6fb82fd71c39d60c8188cc2d0c9763ad0ee9-al7jwos  
+ 7) access-om3/dependencies/pr152-5/access3/2025.08.000-r3flpv4                                  
+ 8) access-om3/pr152-5                                                                           
+ 9) pbs                                                                                          
+10) openmpi/4.1.7                                                                                
