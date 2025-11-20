@@ -1,3 +1,63 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/access-om3.cice.r.1902-10-01-00000.nc:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.cice.r.1902-10-01-00000.nc
+  hashes:
+    binhash: de69f12eb1d0e90481c4845d3c3d66ec
+    md5: 1e4c8b3b8ef60eaa0fcd2ab1d3f15ec9
+work/access-om3.cpl.r.1902-10-01-00000.nc:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.cpl.r.1902-10-01-00000.nc
+  hashes:
+    binhash: c77571cfbbb380cfa1c2ca6a88b978a6
+    md5: 9cf788fc424493644ce73e3480b86792
+work/access-om3.datm.r.1902-10-01-00000.nc:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.datm.r.1902-10-01-00000.nc
+  hashes:
+    binhash: 428888100ae09996814eb23c47d1d85d
+    md5: 5d611bdad83ee20c059a1d70b5e24b50
+work/access-om3.drof.r.1902-10-01-00000.nc:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.drof.r.1902-10-01-00000.nc
+  hashes:
+    binhash: 61dda85e996374edcd1aa8e60e936475
+    md5: 03df84d2630fb48b4aa86a876d2ba417
+work/access-om3.mom6.r.1902-10-01-00000.nc:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.mom6.r.1902-10-01-00000.nc
+  hashes:
+    binhash: b50382f44dc6766de3a6b980822dd085
+    md5: eade7cd2b280db4750db579ae00cb41d
+work/access-om3.ww3.r.1902-10-01-00000:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/access-om3.ww3.r.1902-10-01-00000
+  hashes:
+    binhash: 8adfeeea79c9f338c97ce3b638e6fb5a
+    md5: 8c5810a4c381fd0fb660245d8e9ff20d
+work/rpointer.atm:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.atm
+  hashes:
+    binhash: 030b64d469de2c9ba4001343645a194d
+    md5: 382cd2ac8181788ef56953e2099b1d50
+work/rpointer.cpl:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.cpl
+  hashes:
+    binhash: 774bbea4bc29d7b8d4aa2dea8b40aadd
+    md5: 5cbdb98ae5d55172cebf34d91bc821b8
+work/rpointer.ice:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.ice
+  hashes:
+    binhash: c54a75b82cb51a5670cde4bee096f834
+    md5: 68489afe951d21600ca01febde0ddb06
+work/rpointer.ocn:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.ocn
+  hashes:
+    binhash: adc1365f9f9e6fca004a871247a7589f
+    md5: cb0a0f87bb2f5f0b34d8f541e9776773
+work/rpointer.rof:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.rof
+  hashes:
+    binhash: f5827da8b85c1d097e46035beb80eb14
+    md5: 9f32de99beb72d4bd2687e516ee49108
+work/rpointer.wav:
+  fullpath: /scratch/ps29/nd0349/access-om3/archive/IC4M8-MCW-100km_jra_ryf/restart032/rpointer.wav
+  hashes:
+    binhash: 65a1439b1c3e1c91819e3b9391ec146c
+    md5: 4d89dd3a05b38128972b42ad4a95ec59
