@@ -26,7 +26,7 @@ jobfs: 10GB
 mem: 1150GB
 
 walltime: 48:00:00
-jobname: IC4M3-MCW-100km_jra_ryf 
+jobname: IC4M6-MCW-100km_jra_ryf 
 
 model: access-om3
 
@@ -45,8 +45,8 @@ input:
     - /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/surface_salt_restoring/global.100km/2025.10.24/salt_sfc_restore.nc
     - /g/data/vk83/configurations/inputs/access-om3/cice/grids/global.100km/2024.05.14/kmt.nc
     - /g/data/vk83/configurations/inputs/access-om3/cice/initial_conditions/global.100km/2023.07.28/iced.1900-01-01-10800.nc
-    - /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M3-MCW-100km_jra_ryf/WW3_PreProc/restart.ww3
-    - /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M3-MCW-100km_jra_ryf/WW3_PreProc/mod_def.ww3
+    - /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M6-MCW-100km_jra_ryf/WW3_PreProc/restart.ww3
+    - /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M6-MCW-100km_jra_ryf/WW3_PreProc/mod_def.ww3
     - /g/data/vk83/configurations/inputs/JRA-55/RYF/v1-6/data
  
 collate: false

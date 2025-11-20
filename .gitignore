@@ -1,0 +1,20 @@
+# PBS job output and error logs
+*.e[0-9]*
+*.o[0-9]*
+
+# postscript logs
+postscript.sh.o*
+
+# archive directories created by payu
+archive/
+
+# work directory symlink created by payu
+work
+
+# Any old output files in run directories
+access-om3.err
+access-om3.out
+
+# Other common payu runtime artefacts
+*.nc4.tmp
+*.nc.tmp
