@@ -727,7 +727,7 @@ EPS_OMESH = 1.0E-13             !   [degrees] default = 1.0E-04
 RESTORE_SALINITY = True         !   [Boolean] default = False
                                 ! If true, the coupled driver will add a globally-balanced fresh-water flux that
                                 ! drives sea-surface salinity toward specified values.
-USE_WAVES = True
+USE_WAVES = False
                                 ! "default = False
                                 ! If true, enables surface wave modules."
 WAVE_METHOD = "SURFACE_BANDS"   ! default = "EMPTY"
