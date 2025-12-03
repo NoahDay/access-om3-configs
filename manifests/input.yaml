@@ -94,8 +94,8 @@ work/INPUT/kmt.nc:
 work/INPUT/mod_def.ww3:
   fullpath: /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M8-MCW-100km_jra_ryf_nomixing/WW3_PreProc/mod_def.ww3
   hashes:
-    binhash: 76bc92c085fb7190c3f8a5d345a081f4
-    md5: 5a307c769945ff922d9633822ef9cc17
+    binhash: 1563b74e2c40d9c38f0da66d4417ecdc
+    md5: 6ae799c79423c340a258da22e7ba9990
 work/INPUT/ocean_hgrid.nc:
   fullpath: /g/data/vk83/configurations/inputs/access-om3/mom/grids/mosaic/global.100km/2020.05.30/ocean_hgrid.nc
   hashes:
@@ -109,7 +109,7 @@ work/INPUT/ocean_vgrid.nc:
 work/INPUT/restart.ww3:
   fullpath: /g/data/ps29/nd0349/access-om3/configurations/mcw/IC4M8-MCW-100km_jra_ryf_nomixing/WW3_PreProc/restart.ww3
   hashes:
-    binhash: b1ea19a23be7e437438dd840ebb40098
+    binhash: bf95a61f5eef22c9167f1b8214f9dd4d
     md5: e0043b57b4de97a7df82dafa4c7a1a9f
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/surface_salt_restoring/global.100km/2025.10.24/salt_sfc_restore.nc
