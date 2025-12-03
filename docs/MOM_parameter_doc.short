@@ -625,19 +625,6 @@ EPBL_LANGMUIR_SCHEME = "ADDITIVE" ! default = "NONE"
                                 !      turbulence
                                 !    ADDITIVE - Add a Langmuir turbulence contribution to mstar to other
                                 !      contributions
-LT_ENHANCE_COEF = 0.044         !   [nondim] default = 0.447
-                                ! Coefficient for Langmuir enhancement of mstar
-LT_ENHANCE_EXP = -1.5           !   [nondim] default = -1.33
-                                ! Exponent for Langmuir enhancement of mstar
-LT_MOD_LAC1 = 0.0               !   [nondim] default = -0.87
-                                ! Coefficient for modification of Langmuir number due to MLD approaching Ekman
-                                ! depth.
-LT_MOD_LAC4 = 0.0               !   [nondim] default = 0.95
-                                ! Coefficient for modification of Langmuir number due to ratio of Ekman to
-                                ! stable Obukhov depth.
-LT_MOD_LAC5 = 0.22              !   [nondim] default = 0.95
-                                ! Coefficient for modification of Langmuir number due to ratio of Ekman to
-                                ! unstable Obukhov depth.
 
 ! === module MOM_opacity ===
 PEN_SW_SCALE = 15.0             !   [m] default = 0.0
