@@ -1262,6 +1262,102 @@
        canonical_units: m2/s
        description: wave elevation spectrum
      #
+     - standard_name: Sw_Hs
+       canonical_units: m
+       description: Significant wave height
+     #
+     - standard_name: Sw_hs
+       canonical_units: m
+       description: Significant wave height
+     #
+     - standard_name: Sw_t01
+       canonical_units: s
+       description: Mean wave period Tm0,1
+     #
+     - standard_name: Sw_t0m1
+       canonical_units: s
+       description: Mean wave period Tm0,-1
+     #
+     - standard_name: Sw_thm
+       canonical_units: degrees
+       description: Mean wave direction
+     #
+     - standard_name: Sw_Fp
+       canonical_units: 1 s-1
+       description: Peak wave frequency
+     #
+     - standard_name: Sw_Dp
+       canonical_units: degrees
+       description: Peak wave direction
+     #
+     - standard_name: Sw_z0
+       canonical_units: m
+       description: Wave roughness length
+     #
+     - standard_name: Sw_z0ogrid
+       canonical_units: m
+       description: Wave roughness length on ocean grid
+     #
+     - standard_name: Sw_lasl
+       canonical_units: 1
+       description: Langmuir surface layer scaling
+     #
+     - standard_name: Sw_ch
+       canonical_units: 1
+       description: Wave drag coefficient
+     #
+     - standard_name: Sw_z
+       canonical_units: m
+       description: Wave vertical coordinate
+     #
+     - standard_name: Sw_ustokes_wavenumber_1
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 1
+     #
+     - standard_name: Sw_ustokes_wavenumber_2
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 2
+     #
+     - standard_name: Sw_ustokes_wavenumber_3
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 3
+     #
+     - standard_name: Sw_ustokes_wavenumber_4
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 4
+     #
+     - standard_name: Sw_ustokes_wavenumber_5
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 5
+     #
+     - standard_name: Sw_ustokes_wavenumber_6
+       canonical_units: m/s
+       description: Stokes drift u component for wavenumber band 6
+     #
+     - standard_name: Sw_vstokes_wavenumber_1
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 1
+     #
+     - standard_name: Sw_vstokes_wavenumber_2
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 2
+     #
+     - standard_name: Sw_vstokes_wavenumber_3
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 3
+     #
+     - standard_name: Sw_vstokes_wavenumber_4
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 4
+     #
+     - standard_name: Sw_vstokes_wavenumber_5
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 5
+     #
+     - standard_name: Sw_vstokes_wavenumber_6
+       canonical_units: m/s
+       description: Stokes drift v component for wavenumber band 6
+     #
      - standard_name: Sw_ustokes_avg
        canonical_units: m/s
        description: Daily averaged stokes drift u component (only needed for med history output)

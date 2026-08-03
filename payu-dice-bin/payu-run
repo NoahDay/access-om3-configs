@@ -2,7 +2,9 @@
 """Case-local payu-run entrypoint with ACCESS-OM3 DICE component metadata."""
 
 
-def patch_dice_component():
+import sys
+
+def patch_cesm_cmeps():
     import payu.models.cesm_cmeps as cesm_cmeps
 
     cesm_cmeps.component_info.setdefault(
@@ -10,9 +12,52 @@ def patch_dice_component():
         {"config_files": ["dice_in", "dice.streams.xml"]},
     )
 
+    def get_components(model):
+        model.components = {}
+        model.rpointers = ["rpointer.cpl"]
 
-patch_dice_component()
+        for realm in model.realms:
+            if realm == "cpl":
+                continue
 
-from payu.subcommands.run_cmd import runscript
+            component = model.runconfig.get(
+                "ALLCOMP_attributes",
+                f"{realm.upper()}_model",
+            )
+            if component.startswith("s"):
+                continue
 
-runscript()
+            model.components[realm] = component
+            model.rpointers.append(f"rpointer.{realm}")
+
+        for component in model.components.values():
+            if component not in cesm_cmeps.component_info:
+                raise ValueError(
+                    f"There is no component info entry for {component}"
+                )
+
+            info = cesm_cmeps.component_info[component]
+            model.config_files.extend(info["config_files"])
+            model.optional_config_files.extend(
+                info.get("optional_config_files", [])
+            )
+
+    def get_access_om3_components(model):
+        get_components(model)
+
+        atmosphere = model.components.get("atm")
+        if atmosphere != "datm":
+            raise RuntimeError(
+                "Access-OM3 requires a data atmosphere model, but "
+                f"nuopc.runconfig selects {atmosphere}."
+            )
+
+    cesm_cmeps.CesmCmeps.get_components = get_components
+    cesm_cmeps.AccessOm3.get_components = get_access_om3_components
+
+
+patch_cesm_cmeps()
+
+from payu.cli import parse_run
+
+sys.exit(parse_run())
