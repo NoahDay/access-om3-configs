@@ -80,7 +80,7 @@
   max_blocks = 15
   ns_boundary_type = "tripole"
   nx_global = 360
-  ny_global = 300
+  ny_global = 324
   processor_shape = "slenderX1"
 /
 &ice_prescribed_nml

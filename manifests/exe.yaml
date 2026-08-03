@@ -2,7 +2,7 @@ format: yamanifest
 version: 1.0
 ---
 work/access-om3-WW3:
-  fullpath: /g/data/vk83/prerelease/apps/spack/1.1/release/linux-x86_64_v4/access3-git.c84afe16ad90688574f310ae723ba1f3337dbaa9_2026.03.000-uwfeoccq43ceeh6jvuqlnsepcrtxcv3d/bin/access-om3-WW3
+  fullpath: /g/data/vk83/prerelease/apps/spack/1.1/release/linux-x86_64_v4/access3-2026.03.001-rc2eukq5ml4qdk6zcr6yerphm7b4ftjf/bin/access-om3-WW3
   hashes:
-    binhash: 28a48223bd2ee75ffc1aa3a04b89f9bb
-    md5: 04017b72825f7d85a08ef29c3d73900e
+    binhash: 222e9b0a9023140bcc530a90cdc61c86
+    md5: 1f51372e129839d84f17c231372cd912
